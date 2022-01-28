@@ -2,9 +2,25 @@ table{
     width:100%;
 }
 table,th,td {
-    border:2px solid red;
+    border:1px solid red;
+    
 }
 
 td {
     text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover{
+    color:green;
+}
+ tr:nth-child(even){
+     background-color: rgba(150,212,212,0.4);
+
+ }
+ tr:nth-child(even),td:nth-child(even){
+    background-color: rgba(150,212,212,0.4);
 }
